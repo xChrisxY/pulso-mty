@@ -1,5 +1,5 @@
-
 import 'package:flutter/material.dart';
+import 'package:pulso_mty/widgets/alert_card.dart';
 import 'package:pulso_mty/widgets/news_card.dart';
 import 'package:pulso_mty/widgets/traffic_card.dart';
 import 'package:pulso_mty/widgets/weather_card.dart';
@@ -34,7 +34,17 @@ class HomeScreen extends StatelessWidget{
             const SizedBox(height: 16),
 
             const TrafficCard(),
+
+            const SizedBox(height: 16),
+
+            const AlertCard(),
             
+            const SizedBox(height: 16),
+
+            const Text('Noticias que afectan tu movilidad', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+
+            const SizedBox(height: 16),
+
             const NewsCard(),
           ],
         ),

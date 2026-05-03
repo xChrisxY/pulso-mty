@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pulso_mty/screens/home_screen.dart';
+import 'package:pulso_mty/screens/main_screen.dart';
 import 'package:pulso_mty/theme/app_theme.dart';
 
 void main(){
@@ -17,12 +18,10 @@ class MyApp extends StatelessWidget {
       title: "Pulso Monterrey",
       theme: AppTheme.lightTheme,
       debugShowCheckedModeBanner: false,
-      home: const HomeScreen(),
+      home: const MainScreen(),
     );
-
-    
-
 
   }
 
 }
+
